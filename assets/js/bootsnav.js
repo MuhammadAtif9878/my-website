@@ -222,7 +222,7 @@
                 $('#navbar-menu').on('show.bs.collapse', function () {
                     $('.navbar-toggle').addClass('collapsed');
                 }).on('hide.bs.collapse', function () {
-                    $('.navbar-toggle').removeClass('collapsed');
+                    $('.navbar-toggle').addClass('collapsed');
                 });
             });
     
