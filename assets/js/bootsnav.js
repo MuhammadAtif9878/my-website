@@ -209,24 +209,27 @@
                 $("body").removeClass("on-side");
             });  
             
-            
             $(document).ready(function () {
                 // Close navbar when a link is clicked
                 $('.navbar-nav li a').on('click', function () {
                     if ($('.navbar-toggle').is(':visible')) {
-                        $('.navbar-collapse').collapse('hide');
+                        $('.navbar-toggle').click();  // Trigger the toggle button click
                     }
                 });
     
-                // Handle collapse events to change the toggle button state
+                // Ensure the navbar toggle button becomes visible when the navbar is collapsed
+                $('#navbar-menu').on('hide.bs.collapse', function () {
+                    $('.navbar-toggle').addClass('collapsed').attr('aria-expanded', 'false');
+                });
+    
+                // Ensure the navbar toggle button changes state when the navbar is shown or hidden
                 $('#navbar-menu').on('show.bs.collapse', function () {
-                    $('.navbar-toggle').addClass('collapsed');
+                    $('.navbar-toggle').removeClass('collapsed').attr('aria-expanded', 'true');
                 }).on('hide.bs.collapse', function () {
-                    $('.navbar-toggle').addClass('collapsed');
+                    $('.navbar-toggle').addClass('collapsed').attr('aria-expanded', 'false');
                 });
             });
     
-
             
             
             // ------------------------------------------------------------------------------ //
