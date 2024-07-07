@@ -210,6 +210,24 @@
             });  
             
             
+            $(document).ready(function () {
+                // Close navbar when a link is clicked
+                $('.navbar-nav li a').on('click', function () {
+                    if ($('.navbar-toggle').is(':visible')) {
+                        $('.navbar-collapse').collapse('hide');
+                    }
+                });
+    
+                // Handle collapse events to change the toggle button state
+                $('#navbar-menu').on('show.bs.collapse', function () {
+                    $('.navbar-toggle').addClass('collapsed');
+                }).on('hide.bs.collapse', function () {
+                    $('.navbar-toggle').removeClass('collapsed');
+                });
+            });
+    
+
+            
             
             // ------------------------------------------------------------------------------ //
             // Wrapper
@@ -501,6 +519,8 @@
             }   
         },
         
+
+     
         // ------------------------------------------------------------------------------ //
         // Navbar Scrollspy
         // ------------------------------------------------------------------------------ //
@@ -595,4 +615,7 @@
     });
     
 }(jQuery));
+
+
+
 

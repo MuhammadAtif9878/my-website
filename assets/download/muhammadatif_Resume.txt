@@ -1,0 +1,84 @@
+Muhammad Atif
+React js Developer
+
+ Phone    : +923051015906
+ Mail     : se.muhammadatif@gmail.com
+ Location : Lahore, Lahore, Pakistan
+
+ Objective,
+
+ I want to begin my career at a reputed Developing Organization where I could enhance and utilize my skills with great enthusiasm to
+build my career, become productive for the organization and grow with the organization.I am fluent in React js . Proficient and creative
+Frontend Developer with 6 month of strong history in website development expert in all aspects of frontend development and design. As Your company has Long standing reputation for providing high qualities services. I find this admirable and fortunate to have an
+opportunity to become part of your dynamic team and serve it with my best
+
+SKILLS,
+
+ReactJS
+ javascript 
+ HTML4 & 5
+css 3 
+Bootsrap 4 
+Bootsrap 5
+Redux
+Redux Midleware
+Api Integration 
+Material ui
+Chakra ui
+Formik yup
+
+WORK EXPERIENCE
+
+
+Frontend Developer/ React js Developer(march
+2023– Present)
+Viltco Techologies in Arfa Kareem Tawer Lahore
+Pakistan.
+Viltco Techologies provides bespoke development, consultancy and next-gen
+technology services to global customers
+
+With Experience Letter
+
+Develop a flexible and well-structured front-end, along with the
+APIs to support it. Developed multiple forms by using yup and formik.
+Integrated Api’s
+Developed listing pages by using React Redux
+Figma Design ready in React js
+Developed Add to cart functionality by using ReduxDeveloped
+frontend
+Developed Frontend by using Material Ui
+Developed Frontend by using Chakra UI
+Developed Private & Protected Routes
+Developed HOC & Developed Error boundaries
+
+
+Frontend Developer/ React js Developer Intern
+Harw Solution
+
+As a Frontend Intern Build multiple landing pages
+build Responsive Websites
+Portfolio Website
+Developed multiple forms by using yup and formik. GitHup Link : https://github.com/dashboard
+
+
+PERSONAL PROJECTS
+
+SMC Group Webste
+Customized Design 
+Create mobile responsiveness 
+Developed frontend
+Project link : https://smcgroup.pk/
+
+H&S Property
+Customized Design
+Create mobile responsiveness
+Developed frontend
+
+Arkad
+Customized Design
+Create mobile responsiveness 
+Developed frontend
+
+INTERESTS
+
+Design & development  Coding
