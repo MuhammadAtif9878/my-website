@@ -78,10 +78,11 @@ $(document).ready(function(){
 			$('#client').owlCarousel({
 				items:7,
 				loop:true,
-				smartSpeed: 5000,
+				smartSpeed: 1000,
 				autoplay:true,
 				dots:false,
 				autoplayHoverPause:true,
+				autoplayTimeout: 1000,
 				responsive:{
 						0:{
 							items:2
@@ -103,8 +104,9 @@ $(document).ready(function(){
 				});
 				
 				
+				
 				$('.play').on('click',function(){
-					owl.trigger('play.owl.autoplay',[1000])
+					owl.trigger('play.owl.autoplay',[2000])
 				})
 				$('.stop').on('click',function(){
 					owl.trigger('stop.owl.autoplay')

@@ -205,7 +205,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     content: " ";
     top:0;
     left:0;
-    background:rgba(31,44,108,.65);
+    background:rgba(31, 44, 108, 0.309);
     width:100%;
     height:100%;
 }
@@ -813,9 +813,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.contact-add-info */
 
 /*hm-foot-icon*/
-.hm-foot-icon {
-   
-}
+
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
     color: #636a82;
